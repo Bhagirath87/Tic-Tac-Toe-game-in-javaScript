@@ -53,7 +53,7 @@ boxes.forEach((box) => {
                 setTimeout(() => {
                     computerMove();
                     turnO = true;
-                }, 500); // short delay for realism
+                }, 200); // short delay for realism
             }
 
             if (count === 9 && msgcon.classList.contains("hide")) {
@@ -94,3 +94,4 @@ const resetGame = () => {
 
 resetbtn.addEventListener("click", resetGame);
 newbtn.addEventListener("click", resetGame);
+
